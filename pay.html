@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir='rtl'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCARE</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="first-pay">
+        <img src="img/bcare-logo.svg" alt="">
+        <h1> الخدمة بي كير</h1>
+        <p>امن مركبتك خلال خمسة دقائق مع بي كير</p>
+    </div>
+    <hr>
+    <!-- ////////////////////////////////////////// -->
+    <div class="socond-pay">
+        <h1>الدفع عبر بوابة البنك </h1>
+        <p>يرجى اختيار البنك المتناسب معك</p>
+        <input type="checkbox" name="" id="" required>
+        <b>يرجى تسديد 50 ريال لتأكيد حجزك</b>
+    </div>
+    <!-- ///////////////////////////////////// -->
+    <div>
+        <div class="logspay text-center pt-3 pb-3 ">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="mt-3 mb-3 col-lg-2 col-sm-6  ">
+                        <img src="img/276055064_689088135480915_2777555771610096885_n.webp" alt="" />
+                        <img src="img/277286704_3165312650374318_7018131559980172938_n.webp" alt="" />
+                    </div>
+                    <div class="mt-3 mb-3 col-lg-2 col-sm-6 ">
+                        <img src="img/277405892_352639200139312_666045832011163900_n.webp" alt="" />
+                        <img src="img/277463327_3053266011654458_3409701043336569966_n.webp" alt="" />
+                    </div>
+                    <div class="mt-3 mb-3 col-lg-2 col-sm-6">
+                        <img src="img/277524557_1222516585239579_7887872880130891781_n.webp" alt="" />
+                        <img src="img/277524557_2663595117108654_8723043426450750531_n.webp" alt="" />
+                    </div>
+                    <div class="mt-3 mb-3 col-lg-2 col-sm-6">
+                        <img src="img/277540880_962233161107974_8528245840381383543_n.webp" alt="" />
+                        <img src="img/277547732_1723872364630923_359115423356251100_n.webp" alt="" />
+                    </div>
+                    <div class="mt-3 mb-3 col-lg-2 col-sm-6">
+                        <img src="img/277822267_383249626988205_4835608103878875474_n.webp" alt="" />
+                        <img src="img/277843786_307288491529794_7060213178197816386_n.webp" alt="" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="../js/pp-script.js"></script> -->
+    <script>
+        var logs =document.querySelectorAll(".logspay img");
+        logs.forEach(element => {
+            element.addEventListener("click",function(){
+                window.location.href="paymment.html"
+            })
+        });
+    </script>
+</body>
+
+</html>
